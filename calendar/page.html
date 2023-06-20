@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALENDAR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="Render()">
+        <h3>CALENDAR</h3>
+        <div class="calendar">
+            
+            <div class="wrapper">
+                <div class="month">
+                    <div class="prev" onclick="mode('prev')">&#8592;</div>
+                    <div class="month_name">
+                       <h3 id="monthname"></h3> 
+                      <p id="total_date"></p>
+                    </div>
+                    <div class="next" onclick="mode('next')">&#8594;</div>
+                     
+                </div>
+                <div class="days">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="dates">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="calendar.js"></script>
+</html>
